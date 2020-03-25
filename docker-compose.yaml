@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    build: test-ui
+    ports:
+      - 5000:5000
+  
+  selenium:
+    image: selenium/standalone-chrome:3.141.59-oxygen
+    ports:
+      - 4444:4444
