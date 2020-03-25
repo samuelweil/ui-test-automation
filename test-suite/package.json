@@ -1,0 +1,24 @@
+{
+  "name": "test-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.22.4",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.22.4",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/spec-reporter": "^5.22.4",
+    "@wdio/sync": "^5.20.1",
+    "chromedriver": "^80.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
